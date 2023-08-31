@@ -1,0 +1,10 @@
+
+body {
+
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
