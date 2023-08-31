@@ -1,0 +1,61 @@
+.info-group-compte {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
+    padding: 15px;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease; /* Ajoute une animation de fondu lors de l'apparition */
+  }
+  
+  .info-group-compte legend {
+    font-weight: bold;
+  }
+  
+
+  
+  /* Animation de fondu vers le haut */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .details-items-info{
+    margin: 5px 0;
+    display: flex;
+    gap: 2%;
+    padding: 2%;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .items-contient-info{
+    
+    color: #7e7777;
+  }
+  
+
+  
+  .category-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    margin-left: 15%;
+    
+  }
+  
+  .category-name {
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+  }
+  

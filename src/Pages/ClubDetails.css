@@ -1,0 +1,81 @@
+/* Styling for ClubDetails page */
+.club-details-container {
+    margin-left: 250px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* club-details.css */
+/* ... (existing styles) */
+
+/* Ajoutez des ombres et animations aux éléments spécifiques */
+.info-group {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
+    padding: 15px;
+    margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease; /* Ajoute une animation de fondu lors de l'apparition */
+  }
+  
+  .info-group legend {
+    font-weight: bold;
+  }
+  
+  .page-title,
+  .club-name {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une ombre au texte */
+  }
+  
+  /* Animation de fondu vers le haut */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .details-items{
+    margin: 5px 0;
+    display: flex;
+    gap: 2%;
+    padding: 2%;
+    font-size: 1em;
+  }
+  .items-contient{
+    font-weight: bold;
+  }
+  
+  .title-Detailclub {
+    margin-top: 3%;
+    color: rgb(103, 101, 101);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+  }
+  .backbtn-detail-club{
+    margin: 2% 0 0 5%;
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 5px;
+  background-color: rgb(225, 225, 226);
+  width: 12%;
+  cursor: pointer;
+  }
+  
+ .img-detail-club {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+margin-left: 80%;
+  }
+  

@@ -1,0 +1,102 @@
+.headclub{
+  margin-left: 250px;
+}
+.clubcontainer{
+    margin:3% 5% 0% 5% 
+  }
+  .title-club {
+    color: rgb(103, 101, 101);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+  }
+  .headbtnclub{
+    display: flex;
+    gap: 5.5%;
+    margin-top: 1% ;
+  }
+  
+  .searchclub{
+    outline: none;
+    border: none;
+    font-size: 90%;
+  }
+  .searchclub-container{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 20%;
+    height: 65%;
+    margin-left: 80%;
+  }
+  .searchclub-icon{
+    margin-right: 5px;
+  }
+  .sort-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    margin-left: 65%;
+  }
+  
+  .sort-options label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .sort-options select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;}
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination > * {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+    border: 0.5px solid #007bff;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  
+.iconmembre{
+  margin-left: 30%;
+ color: gray
+}
+.caseDetails{
+  display: flex;
+  margin-left: 22%;
+  gap: 10%;
+}
+.btnstatusclub{
+  border-radius: 5px;
+  padding: 0.5%;
+  width: 102%;
+  color: white;
+}
+.custom-dropdown-toggle::after {
+  display: none; /* Cacher la flèche du dropdown */
+}
+.alert-message {
+  
+  color: #f44336;
+ 
+  
+  margin-bottom: 10px;
+  text-align: center;
+}

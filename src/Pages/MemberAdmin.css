@@ -1,0 +1,80 @@
+.meberadmin-contient{
+  margin-left: 250px;
+}
+.containermembadmin{
+    margin:2% 5% 0% 5% 
+  }
+  .add-membadmin-form {
+      max-height: 80vh; /* Set maximum height for the form */
+      overflow-y: auto; /* Enable scrolling if content overflows */
+   
+    }
+
+    /* Style for form labels */
+    .add-membadmin-form .form-label {
+      font-weight: bold;
+      margin-top: 4%;
+    }
+  .form-control-role{
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+  
+  .iconproffil{
+     
+   color: gray;
+  
+  }
+  .btnstatusadmin{
+    min-width: 70%;
+    min-height: 20%;
+  }
+  td,th{
+    text-align: center;
+  }
+  .cardstatadmin{
+    display: flex;
+    gap: 4%;
+    margin: 2% 2% 0 25%;
+  }
+  .btnsadmin{
+    display: flex;
+    justify-content: space-between;
+  }
+  .searchmemberadmin{
+    outline: none;
+    border: none;
+    font-size: 90%;
+  }
+  .searchadmin-contient{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 20%;
+    height: 65%;
+    margin-left: 70%;
+  }
+  .searchmemberadmin-icon{
+    margin-right: 5px;
+  }
+  
+  .cardcontadmin {
+    width: 340px;
+    height: 120px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    font-weight: bold;
+    color: gray;
+    font-size: 110%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  

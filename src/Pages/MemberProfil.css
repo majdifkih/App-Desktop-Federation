@@ -1,0 +1,153 @@
+.headermemberadmin-container{
+  margin-left: 250px;
+}
+.profiljouer-container{
+  margin-left: 250px;
+}
+.member-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+  
+  .member-profile {
+    width: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 22px 33px 60px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headprofil{
+    display: flex;
+    margin-right: 70%;
+}
+.memberadmin-profile {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 22px 33px 60px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ 
+  
+ .imageProfil{
+    max-width: 80px;
+    max-height: 80px;
+    transition: transform 0.3s ease;
+ }
+  
+.imageProfil:hover {
+    transform: scale(2.2);
+  }
+  
+ @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-animation {
+    animation: fadeIn 0.5s ease;
+  }
+  .headprofil{
+    display:flex;
+    gap: 25%;
+  }
+  
+  .iconprint{
+    color: rgb(108, 105, 105);
+    cursor: pointer;
+    margin-left: 550%;
+  }
+  .iconprintad{
+    color: rgb(108, 105, 105);
+  cursor: pointer;
+margin-left: 850%;
+  }
+  .imglogo{
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .imglogoad{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right:100% ;
+  }
+
+  .member-details {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  
+  .member-details-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribue l'espace entre les libellés et les valeurs */
+    margin-bottom: 10px;
+    padding: 5px 0; /* Espacement vertical pour chaque ligne */
+    
+}
+.back-buttonadmin{
+  margin: 2% 0 0 2%;
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 5px;
+  background-color: rgb(225, 225, 226);
+  width: 20%;
+  cursor: pointer;
+}
+.back-button{
+  margin: 2% 0 0 2%;
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 5px;
+  background-color: rgb(225, 225, 226);
+  width: 12%;
+  cursor: pointer;
+} 
+
+  .detail-label {
+    font-weight: bold;
+    /* Le libellé prendra autant d'espace que possible */
+  }
+  
+  .detail-value {
+    margin-left: 80px; /* Espace entre le libellé et la valeur */
+    /* La valeur prendra deux fois l'espace du libellé */
+  }
+  
+  @media print {
+    .iconprint,
+    .back-button,
+    .back-buttonadmin,
+    .sidebarprofil {
+      display: none !important;
+    }
+    
+    
+  
+   
+    .member-profile {
+      width: 800px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 22px 33px 60px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profiljouer-main{
+      margin-left: 20px;
+    }
+  }

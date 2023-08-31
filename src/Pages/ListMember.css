@@ -1,0 +1,166 @@
+.joueurcontient{
+  margin-left: 250px;
+}
+.membermain{
+  display: flex;
+  flex-direction: column;
+}
+.cardstatjoueuer{
+  display: flex;
+  margin-top: 2%;
+}
+.headbtnjoueur{
+  display: flex;
+  gap: 4.1%;
+  margin-top: 1% ;
+}
+.headbtnjoueurs{
+  display: flex;
+  gap:15%;
+  margin-top: 1% ;
+}
+
+.searchjoueur{
+  outline: none;
+  border: none;
+  font-size: 90%;
+}
+.searchjoueur-container{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 20%;
+  height: 65%;
+  margin-left: 80%;
+}
+.searchjoueur-icon{
+  margin-right: 5px;
+}
+.sort-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  margin-left: 65%;
+}
+
+.sort-options label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-options select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.containermember{
+  margin:2% 5% 0% 5% 
+}
+
+/* Masquer le scroll y dans le formulaire */
+.add-member-form {
+  overflow-y: hidden;
+}
+
+.add-member-form::-webkit-scrollbar {
+  display: none;
+}
+
+/* Centrer horizontalement les cases à cocher du cas et du sexe */
+.check-sexe-cas {
+  display: flex;
+  gap: 5%;
+}
+
+.label-modal {
+  font-weight: bold;
+  
+}
+
+.form-control{
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form-control-img{
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+}
+.modal-footer button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-footer button:first-child {
+  background-color: #ccc;
+  color: #fff;
+}
+/* Style pour les boutons radio et les cases à cocher */
+.check-sexe-cas .form-check-input[type="radio"],
+.check-sexe-cas .form-check-input[type="checkbox"] {
+ 
+  border: 1px solid #ccc;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+
+}
+
+
+
+
+.iconproffil{
+   
+ color: gray;
+
+}
+.btnstatus{
+  width: 55%;
+  height: 20%;
+}
+td,th{
+  text-align: center;
+}
+
+
+.cardcont {
+  width: 340px;
+  height: 120px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 2% 2% 0% 2%;
+  font-weight: bold;
+  color: gray;
+  font-size: 110%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.custom-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #f44336; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.title-joueur-total{
+  margin: 3% 0 0 5%;
+  color: rgb(103, 101, 101);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+

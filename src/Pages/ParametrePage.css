@@ -1,0 +1,61 @@
+
+.tab-content {
+    
+    width: 95%;
+    
+    border: 0.6px solid rgb(248, 242, 242);
+    margin-top: 10%;
+    border-radius: 4px;
+   
+}
+
+.title-param {
+    margin-top: 5%;
+    color: rgb(103, 101, 101);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+
+}
+
+
+
+/* Styles pour les onglets */
+.tab-label {
+    color: gray;
+    font-size: 100%;
+    transition: color 0.3s, font-size 0.3s;
+    height: 40px; /* Hauteur fixe pour les cases de labels */
+    display: flex;
+    align-items: center;
+}
+
+.tab-label.active {
+    color: #9467b1;
+    font-size: 120%;
+    transition: color 0.3s, font-size 0.3s, transform 0.2s ease-in-out;
+}
+
+.tab-label.active:hover {
+    transform: scale(1.1);
+}
+
+
+/* Styles pour les tabpanes */
+.tab-pane-content {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    animation: fade-in 0.5s;
+    
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

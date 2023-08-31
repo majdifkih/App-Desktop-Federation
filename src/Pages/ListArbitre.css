@@ -1,0 +1,67 @@
+.arbitrecontient{
+margin-left: 250px;
+}
+.title-arbitre{
+  color: rgb(103, 101, 101);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+ }
+  
+   /* Style for form labels */
+  .form-label {
+    font-weight: bold;
+  }
+.searcharbitre{
+  outline: none;
+  border: none;
+  font-size: 90%;
+}
+.searcharbitre-container{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 20%;
+  height: 65%;
+  margin-left: 80%;
+}
+.searcharbitre-icon{
+  margin-right: 5px;
+}
+.headbtnarbitre{
+  display: flex;
+  gap: 4.8%;
+  margin-top: 1% ;
+}
+
+.Arbitrecont{
+    margin:3% 5% 0% 5% 
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination > * {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination .page-link {
+    color: #007bff;
+    border: 0.5px solid #007bff;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btnstatusArbi{
+    width: 60%;
+    padding: 3%;
+  }
+  
+
