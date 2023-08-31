@@ -196,12 +196,12 @@ const updateClub = async () => {
     const existingDoc = await localDB.get(id);
   
     const updatedSolde = Math.max(solde, 0);
-    let updatedStatusclub = statusclub;
+   
 
-    let updateStatus = statusclub;
-
+   
+    let updateStatus
     // Vérifier si le solde est passé à zéro et le statut n'était pas déjà 'actif'
-    if (updatedSolde === 0 && existingDoc.statusclub !== 'actif') {
+    if (updatedSolde === 0 && existingDoc.statusclub === 'non actif') {
       updateStatus = 'actif';
     }
     const updatedDoc = {
@@ -211,7 +211,8 @@ const updateClub = async () => {
       telephone,
       totalMembers,
       solde: updatedSolde,
-      statusclub: updateStatus
+      statusclub: updateStatus,
+     
     };
     console.log('Existing solde:', existingDoc.solde);
     console.log('New solde:', updatedDoc.solde);

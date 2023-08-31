@@ -22,7 +22,7 @@ const HomePage = () =>{
           backgroundRepeat: 'no-repeat'
         }}
       >
-        Équipes
+        Clubs
       </div>
     </Link>
   </div>
