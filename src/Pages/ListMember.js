@@ -1093,7 +1093,7 @@ const ListMemberPDF = () => {
     <Modal.Title>Suppression</Modal.Title>
   </Modal.Header>
   <Modal.Body >
-    <p>Êtes-vous sûr de vouloir supprimer cet utilisateur ?</p>
+    <p>Êtes-vous sûr de vouloir supprimer cet joueur ?</p>
   </Modal.Body>
   <Modal.Footer>
     <Button variant="secondary" onClick={handleDelClose}>
