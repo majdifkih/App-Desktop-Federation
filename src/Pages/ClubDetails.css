@@ -73,7 +73,8 @@
   }
   
  .img-detail-club {
-    max-width: 100%;
+    max-width: 10%;
+    max-height: 10%;
     border-radius: 5px;
     margin-bottom: 2%;
 margin-left: 80%;
