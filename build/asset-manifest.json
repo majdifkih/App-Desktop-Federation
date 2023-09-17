@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c04fd221.css",
+    "main.js": "./static/js/main.457c839e.js",
+    "static/js/498.08e1e2c8.chunk.js": "./static/js/498.08e1e2c8.chunk.js",
+    "static/js/703.f2c60403.chunk.js": "./static/js/703.f2c60403.chunk.js",
+    "static/js/513.ad7c1579.chunk.js": "./static/js/513.ad7c1579.chunk.js",
+    "static/js/787.c4e7f8f9.chunk.js": "./static/js/787.c4e7f8f9.chunk.js",
+    "static/media/arbitre.png": "./static/media/arbitre.5d1df2cf8ad50dbcbd52.png",
+    "static/media/joueur.png": "./static/media/joueur.1778f5c318ccd6f13bc5.png",
+    "static/media/membreadmin.png": "./static/media/membreadmin.13b96d2a7bb4b98461ce.png",
+    "static/media/competition.jpg": "./static/media/competition.fff0f5863a75b744830f.jpg",
+    "static/media/club.jpg": "./static/media/club.24a2454b1dcb3cf69586.jpg",
+    "static/media/loginlogo1.png": "./static/media/loginlogo1.da84f0ac175432020c09.png",
+    "index.html": "./index.html",
+    "main.c04fd221.css.map": "./static/css/main.c04fd221.css.map",
+    "main.457c839e.js.map": "./static/js/main.457c839e.js.map",
+    "498.08e1e2c8.chunk.js.map": "./static/js/498.08e1e2c8.chunk.js.map",
+    "703.f2c60403.chunk.js.map": "./static/js/703.f2c60403.chunk.js.map",
+    "513.ad7c1579.chunk.js.map": "./static/js/513.ad7c1579.chunk.js.map",
+    "787.c4e7f8f9.chunk.js.map": "./static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c04fd221.css",
+    "static/js/main.457c839e.js"
+  ]
+}
