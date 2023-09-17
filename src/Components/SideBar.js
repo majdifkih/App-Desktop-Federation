@@ -42,7 +42,7 @@ const SideBar = () => {
               <PersonIcon className="iconn" /> Arbitres
             </Link>
             <Link to="/club" className={`nav ${isActive('/club')} ${location.pathname === '/club' ? 'club-active' : ''}`}>
-              <SportsTennisIcon className="icon" /> Club
+              <SportsTennisIcon className="icon" /> Clubs
             </Link>
             <Link to="/joueurs" className={`nav ${isActive('/joueurs')}`}>
               <GroupsIcon className="icon" /> Joueurs
