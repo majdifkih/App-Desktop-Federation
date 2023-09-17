@@ -44,10 +44,10 @@ const SideBar = () => {
             <Link to="/club" className={`nav ${isActive('/club')} ${location.pathname === '/club' ? 'club-active' : ''}`}>
               <SportsTennisIcon className="icon" /> Club
             </Link>
-            <Link to="/joueurs" className={`nav ${isActive('/Accueilclub')}`}>
+            <Link to="/joueurs" className={`nav ${isActive('/joueurs')}`}>
               <GroupsIcon className="icon" /> Joueurs
             </Link>
-            <Link to="/parametre" className={`nav ${isActive('/Accueilclub')}`}>
+            <Link to="/parametre" className={`nav ${isActive('/parametre')}`}>
               <SettingsIcon className="icon" /> Compte
             </Link>
             <Link className="nav" onClick={handleShow}>
